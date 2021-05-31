@@ -12,13 +12,12 @@ Also it uses [google-maps](https://www.npmjs.com/package/google-maps), a wrapper
 
 
 # Installation
-To get started with the repo the only thing you have to do is execute:
+To get started, to be able to run the example you have execute:
 ```bash
 npm install
 ```
 
 ## Complete example with react-leaflet
-
 
 ```jsx
 import React from 'react';
