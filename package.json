@@ -5,6 +5,7 @@
   "main": "dist/react-leaflet-google-v2.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-changelog": "auto-changelog",
     "build": "npm run build:lib && npm run build:dist && npm run build:dev",
     "build:dist": "webpack src/index.js --output dist/react-leaflet-google-v2.min.js",
     "build:dev": "webpack src/index.js --mode development --output dist/react-leaflet-google-v2.js",
