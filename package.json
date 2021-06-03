@@ -5,6 +5,7 @@
   "main": "dist/react-leaflet-google-v2.min.js",
   "scripts": {
     "test": "jest",
+    "cover": "jest --coverage --collectCoverageFrom=src/**/*.js",
     "build": "npm run build:lib && npm run build:dist && npm run build:dev",
     "build:dist": "webpack src/index.js --output dist/react-leaflet-google-v2.min.js",
     "build:dev": "webpack src/index.js --mode development --output dist/react-leaflet-google-v2.js",
