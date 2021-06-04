@@ -23,7 +23,7 @@ describe("Check if Google Layer renders", () => {
                 </LayersControl>
             </MapContainer>
         )
-         expect((wrapper).find(GoogleLayer).prop('googlekey')).toEqual("test-key");
-         expect((wrapper).find(GoogleLayer).prop('maptype')).toEqual("ROADMAP");
+        expect((wrapper).find(GoogleLayer).prop('googlekey')).toEqual("test-key");
+        expect((wrapper).find(GoogleLayer).prop('maptype')).toEqual("ROADMAP");
     })
 })
