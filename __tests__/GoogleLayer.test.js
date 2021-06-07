@@ -8,6 +8,7 @@ import Adapter from "@wojtekmaj/enzyme-adapter-react-17"
 Enzyme.configure({ adapter: new Adapter() })
 
 const { BaseLayer } = LayersControl;
+
 const props = {
     googlekey: "test-key",
     maptype: "ROADMAP",
