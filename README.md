@@ -1,4 +1,4 @@
-# react-leaflet-google-v2 [![npm version](https://img.shields.io/npm/v/react-leaflet-google-v2.svg)](https://www.npmjs.com/package/react-leaflet-google-v2)![npm downloads](https://img.shields.io/npm/dw/react-leaflet-google-v2)
+# react-leaflet-google-v2 [![npm version](https://img.shields.io/npm/v/react-leaflet-google-v2.svg)](https://www.npmjs.com/package/react-leaflet-google-v2)![npm downloads](https://img.shields.io/npm/dw/react-leaflet-google-v2)[![Node.js CI](https://github.com/TA-Geoforce/react-leaflet-google-v2/actions/workflows/node.js.yml/badge.svg)](https://github.com/TA-Geoforce/react-leaflet-google-v2/actions/workflows/node.js.yml)[![Release](https://github.com/TA-Geoforce/react-leaflet-google-v2/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/TA-Geoforce/react-leaflet-google-v2/actions/workflows/npm-publish.yml)
 
 Most recently tested with Leaflet React-Leaflet 3.0.5.
 
