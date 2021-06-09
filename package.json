@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:TA-Geoforce/react-leaflet-google-v2.git"
+    "url": "git+https://github.com/TA-Geoforce/react-leaflet-google-v2.git"
   },
   "keywords": [
     "react",
