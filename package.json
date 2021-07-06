@@ -1,5 +1,5 @@
 {
-  "name": "react-leaflet-google-v2",
+  "name": "react-leaflet-google-v3",
   "version": "5.1.5",
   "description": "google layer as React compoment for Leaflet",
   "main": "dist/react-leaflet-google-v2.min.js",
@@ -35,6 +35,7 @@
   },
   "homepage": "https://github.com/TA-Geoforce/react-leaflet-google-v2#readme",
   "dependencies": {
+    "@react-leaflet/core": "^1.1.0",
     "google-maps": "^3.3.0",
     "react-leaflet": "^3.0.5"
   },
