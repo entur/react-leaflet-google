@@ -7,7 +7,6 @@ const terrain = 'TERRAIN';
 const road = 'ROADMAP';
 const satellite = 'SATELLITE';
 const hydrid = 'HYBRID';
-//// Google's map type. Valid values are 'roadmap', 'satellite' or 'terrain'. 'hybrid' is not really supported.
 
 export default class GoogleExample extends React.Component {
 
