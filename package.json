@@ -1,5 +1,5 @@
 {
-  "name": "react-leaflet-google-v2",
+  "name": "react-leaflet-google-v3",
   "version": "5.1.9",
   "description": "google layer as React compoment for Leaflet",
   "main": "dist/react-leaflet-google-v2.min.js",
@@ -12,7 +12,6 @@
     "build:lib": "npm run compile:lib",
     "clean:lib": "rm -Rf ./lib",
     "compile:lib": "babel src --out-dir lib",
-    "prepublishOnly": "npm run build",
     "example": "webpack-dev-server --config ./example/webpack.config.js",
     "lint": "eslint ./src",
     "pretty": "prettier --write \"{src,example}/**/*.js\""
@@ -37,7 +36,8 @@
   "dependencies": {
     "@react-leaflet/core": "^1.1.0",
     "google-maps": "^3.3.0",
-    "react-leaflet": "^3.0.5"
+    "react-leaflet": "^3.0.5",
+    "react-leaflet-google-v2": "^5.1.9"
   },
   "peerDependencies": {
     "leaflet": "^1.7.1",
