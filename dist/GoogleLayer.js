@@ -7,7 +7,7 @@ exports["default"] = void 0;
 
 var _core = require("@react-leaflet/core");
 
-require("./leaflet.google");
+require("../lib/leaflet.google");
 
 var createLeafletElement = function createLeafletElement(props) {
   var instance = new L.gridLayer.googleMutant(props);
