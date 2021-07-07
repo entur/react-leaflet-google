@@ -11,8 +11,9 @@
     "build:dev": "webpack src/index.js --mode development --output dist/react-leaflet-google-v2.js",
     "build:lib": "npm run compile:lib",
     "clean:lib": "rm -Rf ./lib",
-    "compile:lib": "babel src --out-dir lib",
+    "compile:lib": "babel src --out-dir dist",
     "example": "webpack-dev-server --config ./example/webpack.config.js",
+    "prepublishOnly": "npm run build",
     "lint": "eslint ./src",
     "pretty": "prettier --write \"{src,example}/**/*.js\""
   },
