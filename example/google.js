@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapContainer, TileLayer, LayersControl } from 'react-leaflet'
-import { GoogleLayer } from '../dist'
+import { GoogleLayer } from '../src/index.js'
 const { BaseLayer } = LayersControl;
 const key = 'AIzaSyDEG4lyorD61vnJoAHG0FkQERZ-McElZyg';
 const terrain = 'TERRAIN';

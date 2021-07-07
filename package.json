@@ -2,7 +2,7 @@
   "name": "react-leaflet-google-v2",
   "version": "5.1.11",
   "description": "google layer as React compoment for Leaflet",
-  "main": "dist/react-leaflet-google-v2.min.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "cover": "jest --coverage --collectCoverageFrom=src/**/*.js",
@@ -11,7 +11,7 @@
     "build:dev": "webpack src/index.js --mode development --output dist/react-leaflet-google-v2.js",
     "build:lib": "npm run compile:lib",
     "clean:lib": "rm -Rf ./lib",
-    "compile:lib": "babel src --out-dir dist",
+    "compile:lib": "babel src --out-dir lib",
     "example": "webpack-dev-server --config ./example/webpack.config.js",
     "prepublishOnly": "npm run build",
     "lint": "eslint ./src",
