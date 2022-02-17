@@ -162,7 +162,7 @@ L.GridLayer.GoogleMutant = L.GridLayer.extend({
       disableDoubleClickZoom: true,
       scrollwheel: false,
       streetViewControl: false,
-      styles: this.options.styles || {},
+      styles: this.options.styles || [],
       backgroundColor: "transparent",
     });
     
