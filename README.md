@@ -1,10 +1,10 @@
-# react-leaflet-google-v2 [![npm version](https://img.shields.io/npm/v/react-leaflet-google-v2.svg)](https://www.npmjs.com/package/react-leaflet-google-v2)![npm downloads](https://img.shields.io/npm/dw/react-leaflet-google-v2)[![Node.js CI](https://github.com/TA-Geoforce/react-leaflet-google-v2/actions/workflows/node.js.yml/badge.svg)](https://github.com/TA-Geoforce/react-leaflet-google-v2/actions/workflows/node.js.yml)[![Release](https://github.com/TA-Geoforce/react-leaflet-google-v2/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/TA-Geoforce/react-leaflet-google-v2/actions/workflows/npm-publish.yml)
+# @entur/react-leaflet-google
 
-Most recently tested with Leaflet React-Leaflet 3.0.5.
+Most recently tested with Leaflet React-Leaflet 4.0.0. Requires React 18, react-leaflet 4 and Leaflet 1.8-
 
 GoogleMaps layer as React component for Leaflet build on top of [React-Leaflet](https://github.com/PaulLeCam/react-leaflet). 
 
-The google maps layer is using the plugin from [Leaflet.GridLayer.GoogleMutant](https://gitlab.com/IvanSanchez/Leaflet.GridLayer.GoogleMutant) 
+The google maps layer is using the plugin from [Leaflet. GridLayer. GoogleMutant](https://gitlab.com/IvanSanchez/Leaflet.GridLayer.GoogleMutant) 
 
 Also it uses [google-maps](https://www.npmjs.com/package/google-maps), a wrapper for asynchronously download Google Maps API in the browser.
 
@@ -13,6 +13,7 @@ Also it uses [google-maps](https://www.npmjs.com/package/google-maps), a wrapper
 ## Complete example with react-leaflet
 
 To get started, to be able to run the example you have execute:
+
 ```bash
 npm install
 ```
@@ -63,11 +64,14 @@ export default class GoogleExample extends React.Component {
   }
 }
 
+```
+
+You can find the following example in the folder ` ` ` example ` ` `. Run the above code by executing the following scripts in package.json, with the order they are stated underneath:
+
+1) 
+
+```build
 
 ```
 
-You can find the following example in the folder ```example```. Run the above code by executing the following scripts in package.json, with the order they are stated underneath:
-
-1) ```build```
-
-1) ```example```
+1) `` `example` ``

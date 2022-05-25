@@ -1,8 +1,13 @@
 {
   "name": "@entur/react-leaflet-google",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "google layer as React compoment for Leaflet",
   "main": "lib/index.js",
+  "files": [
+    "lib/index.js",
+    "lib/GoogleLayer.js",
+    "lib/leaflet.google.js"
+  ],
   "scripts": {
     "test": "jest",
     "cover": "jest --coverage --collectCoverageFrom=src/**/*.js",
