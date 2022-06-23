@@ -1,36 +1,36 @@
-name: Release
-on:
-  push:
-    branches:
-      - master
-jobs:
-  release:
-    name: Release
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - name: Install dependencies
-        run: npm ci
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
-      - name: Commit files
-        run: |
-          git config --local user.email "root@users.noreply.github.com"
-          git config --local user.name "root"
-          git add .
-          git commit -m "[skip-ci]"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.G_TOKEN }}
-          branch: ${{ github.ref }}
+# name: Release
+# on:
+#   push:
+#     branches:
+#       - master
+# jobs:
+#   release:
+#     name: Release
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v2
+#         with:
+#           fetch-depth: 0
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v1
+#         with:
+#           node-version: 12
+#       - name: Install dependencies
+#         run: npm ci
+#       - name: Release
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
+#           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+#         run: npx semantic-release
+#       - name: Commit files
+#         run: |
+#           git config --local user.email "root@users.noreply.github.com"
+#           git config --local user.name "root"
+#           git add .
+#           git commit -m "[skip-ci]"
+#       - name: Push changes
+#         uses: ad-m/github-push-action@master
+#         with:
+#           github_token: ${{ secrets.G_TOKEN }}
+#           branch: ${{ github.ref }}
